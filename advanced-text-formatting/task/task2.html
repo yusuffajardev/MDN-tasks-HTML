@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task 2 - Advanced Text formatting</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;  
+      }
+      h1 {
+        font-size: 2rem;
+        margin: 0;
+        color: purple;
+      }
+      p {
+        margin: 0.5em 0;
+      }
+      abbr,
+      time {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Advanced text semantic</h1>
+    <p>Let's start with a quote :</p>
+
+    <blockquote>
+      <p>
+        <abbr title="Hypertext Markup Language">HTML</abbr>, Hypertext Markup
+        Language is by default accesible, if used correctly.
+      </p>
+    </blockquote>
+    <p>
+      <abbr title="Cascading Style Sheets">CSS</abbr>, Cascading Style Sheets,
+      can also be used to make web pages more, or less accessible.
+    </p>
+    <p>
+      Chemical Formulae: H<sub>2</sub>O (Water), C<sub>2</sub>H<sub>6</sub>O
+      (Ethanol).
+    </p>
+    <p>
+      Dates:
+      <time datetime="2023-12-22">December 22<sup>th</sup> 2023</time> (Mothers
+      Day),
+      <time datetime="2023-11-10">November 10<sup>th</sup> 2023</time> (Heroes
+      Day).
+    </p>
+  </body>
+</html>
