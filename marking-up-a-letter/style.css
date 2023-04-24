@@ -8,9 +8,10 @@ body {
 }
 
 body {
-  width: 70%;
+  width: 72%;
   margin: 0 auto;
-  line-height: 1.5rem;
+  padding: 1em;
+  line-height: 1.7rem;
 }
 
 /* text-formatting */
@@ -24,6 +25,7 @@ address {
 .sender-column {
   text-align: right;
 }
-.contact-tel, .contact-email {
+.contact-tel,
+.contact-email {
   font-weight: normal;
 }
