@@ -1,0 +1,29 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 70%;
+  margin: 0 auto;
+  line-height: 1.5rem;
+}
+
+/* text-formatting */
+ul {
+  margin-top: 0;
+  list-style-type: none;
+}
+address {
+  text-align: left;
+}
+.sender-column {
+  text-align: right;
+}
+.contact-tel, .contact-email {
+  font-weight: normal;
+}
